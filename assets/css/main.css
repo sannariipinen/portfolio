@@ -3465,24 +3465,24 @@ input, select, textarea {
 
 	.intro-container {
 		display: flex;
-		flex-direction: column;  /* Stack the image and text vertically */
-		align-items: center;  /* Center the content horizontally */
-		justify-content: center; /* Center the content vertically */
-		gap: 20px;  /* Add space between the elements */
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 20px; 
 		max-width: 100%;
 		margin: 0 auto;
 	}	
 
 	.image-container img {
-		width: 200px; /* Adjust image width */
-		height: auto; /* Maintain aspect ratio */
-		object-fit: cover; /* Ensure the image fits nicely */
-		border-radius: 5%; /* Optional: make the image circular */
+		width: 200px;
+		height: auto;
+		object-fit: cover; 
+		border-radius: 5%; 
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	}	
 
 	.text-container {
-		text-align: center; /* Center the text */
+		text-align: center; 
 		max-width: 500px;
 	}	
 
